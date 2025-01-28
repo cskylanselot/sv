@@ -1,0 +1,218 @@
+* {
+  box-sizing: content-box;
+}
+.sv {
+  width: 1920px;
+  height: 2715px;
+  margin: 0 auto;
+  display: flex;
+}
+.container1 {
+  width: 30%;
+  height: 100%;
+  background-color: black;
+}
+.head__img {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.img {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+}
+.pi {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+}
+.tae {
+  width: 100%;
+  height: 150px;
+  /* border: 1px solid red; */
+  /* вылазит на соседний контейнер ? */
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.telefon__icon {
+  display: flex;
+}
+
+.telefon {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+.emaila {
+  display: flex;
+}
+.email {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+}
+.email:hover {
+  background-color: blue;
+  border-radius: 5px;
+}
+.fa {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.skill {
+  width: 100%;
+  height: 2150px;
+  margin: 0 auto;
+}
+.strengths {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.skills {
+  list-style-type: circle;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin-left: 40px;
+}
+li::marker {
+  font-size: 50px;
+}
+.conteiner2 {
+  width: 70%;
+  height: 100%;
+  background-color: aliceblue;
+}
+.name {
+  font-size: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.whomw {
+  font-size: 80px;
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 60px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+  font-size: 30px;
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.exp {
+  font-size: 80px;
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 60px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.line1 {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+}
+.worked {
+  margin-left: 50px;
+}
+.expw {
+  font-size: 40px;
+  margin: 0 auto;
+  margin-top: 60px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.whenw {
+  font-size: 40px;
+  margin: 0 auto;
+  color: rgba(128, 128, 128, 0.938);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wherew {
+  font-size: 30px;
+  margin: 0 auto;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.exps {
+  font-size: 40px;
+  margin: 0 auto;
+  margin-top: 60px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.whenw1 {
+  font-size: 40px;
+  margin: 0 auto;
+  color: rgba(128, 128, 128, 0.938);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wherew1 {
+  font-size: 30px;
+  margin: 0 auto;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.end {
+  margin: 0 auto;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-left: 50px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wheres {
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 40px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wheres1 {
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: rgba(128, 128, 128, 0.938);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.endr {
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 40px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
