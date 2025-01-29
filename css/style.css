@@ -97,16 +97,23 @@
   line-height: 40px;
   margin: 0 auto;
   margin-top: 80px;
-  margin-left: 20px;
+  margin-left: 30px;
+}
+.sac {
+  display: flex;
+  margin-top: 20px;
 }
 .skills {
-  list-style-type: circle;
   font-size: 40px;
   color: rgb(255, 255, 255);
   margin-left: 40px;
 }
-li::marker {
-  font-size: 50px;
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 10px solid white;
+  border-radius: 50%;
+  margin-left: 30px;
 }
 .conteiner2 {
   width: 70%;
