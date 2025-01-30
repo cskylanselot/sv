@@ -1,0 +1,87 @@
+@media screen and (max-width: 768px) {
+  .media {
+    max-width: calc(50% - 200px);
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .whomw {
+    font-size: 40px;
+  }
+  .exp {
+    font-size: 40px;
+  }
+  .expx {
+    font-size: 30px;
+  }
+  .exps {
+    font-size: 30px;
+  }
+  .circle {
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin: 20px 0 30px 20px;
+  }
+  .skills {
+    font-size: 20px;
+    margin: 0 auto;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .media {
+    max-width: calc(30% - 50px);
+  }
+  .pi {
+    font-size: 20px;
+  }
+  .img {
+    width: 80px;
+    height: 80px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .whomw {
+    font-size: 30px;
+  }
+  .exp {
+    font-size: 30px;
+  }
+  .expx {
+    font-size: 20px;
+  }
+  .exps {
+    font-size: 20px;
+  }
+  .circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin: 20px 0 30px 20px;
+  }
+  .skills {
+    font-size: 15px;
+    margin: 0 auto;
+    margin-left: 20px;
+  }
+  .fa {
+    width: 20px;
+    height: 20px;
+  }
+  .telefon {
+    font-size: 10px;
+  }
+  .email {
+    font-size: 10px;
+  }
+}

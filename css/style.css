@@ -1,10 +1,14 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 .sv {
   width: 1920px;
   height: 2715px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.media {
   display: flex;
 }
 .container1 {
@@ -114,6 +118,7 @@
   border: 10px solid white;
   border-radius: 50%;
   margin-left: 30px;
+  margin-top: 35px;
 }
 .conteiner2 {
   width: 70%;
