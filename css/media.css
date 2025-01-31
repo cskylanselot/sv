@@ -25,6 +25,9 @@
     height: 1.563rem;
     border: 5px solid white;
   }
+  .pi {
+    font-size: 1.563rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .media {
@@ -70,6 +73,7 @@
     flex-direction: column;
   }
   .conteiner1 {
+    width: 100%;
   }
   .strengths {
     margin: 0 auto;
@@ -126,6 +130,7 @@
 }
 .conteiner2 {
   height: 100%;
+  width: 100%;
 }
 .worked {
   margin: 0 auto;
