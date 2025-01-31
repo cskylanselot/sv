@@ -1,87 +1,188 @@
-@media screen and (max-width: 768px) {
+* {
+}
+@media screen and (max-width: 1200px) {
   .media {
-    max-width: calc(50% - 200px);
+    max-width: 100%;
   }
-  .img {
-    width: 100px;
-    height: 100px;
-  }
-  .name {
-    font-size: 50px;
-  }
-  .whomw {
-    font-size: 40px;
-  }
-  .exp {
-    font-size: 40px;
-  }
-  .expx {
-    font-size: 30px;
-  }
-  .exps {
-    font-size: 30px;
+  .skills {
+    font-size: 2rem;
   }
   .circle {
-    width: 20px;
-    height: 20px;
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid white;
+  }
+}
+@media screen and (max-width: 992px) {
+  .media {
+    max-width: 100%;
+  }
+  .skills {
+    font-size: 1.25rem;
+  }
+  .circle {
+    width: 1.563rem;
+    height: 1.563rem;
+    border: 5px solid white;
+  }
+}
+@media screen and (max-width: 768px) {
+  .media {
+    max-width: 100%;
+  }
+  .img {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
+  .name {
+    font-size: 3.125rem;
+  }
+  .whomw {
+    font-size: 2.5rem;
+  }
+  .exp {
+    font-size: 2.5rem;
+  }
+  .expx {
+    font-size: 1.875rem;
+  }
+  .exps {
+    font-size: 1.875rem;
+  }
+  .circle {
+    width: 1.25rem;
+    height: 1.25rem;
     border: 3px solid white;
     border-radius: 50%;
     margin: 0 auto;
-    margin: 20px 0 30px 20px;
+    margin: 1.25rem 0 1.875rem 1.25rem;
   }
   .skills {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0 auto;
-    margin-left: 30px;
+    margin-left: 1.875rem;
   }
 }
 @media screen and (max-width: 576px) {
   .media {
-    max-width: calc(30% - 50px);
+    max-width: 120rem;
+    height: 100rem;
+    flex-direction: column;
+  }
+  .conteiner1 {
+  }
+  .strengths {
+    margin: 0 auto;
+    margin: 1rem;
+    font-size: 1.25rem;
   }
   .pi {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .img {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
   }
   .name {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .whomw {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .exp {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   .expx {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .exps {
-    font-size: 20px;
+    font-size: 1.25rem;
+    margin: 0 auto;
+    margin-top: 1rem;
   }
   .circle {
-    width: 15px;
-    height: 15px;
+    width: 0.938rem;
+    height: 0.938rem;
     border: 2px solid white;
     border-radius: 50%;
     margin: 0 auto;
-    margin: 20px 0 30px 20px;
+    margin: 1.25rem 0 1.875rem 1.25rem;
   }
   .skills {
-    font-size: 15px;
+    font-size: 0.938rem;
     margin: 0 auto;
-    margin-left: 20px;
+    margin-left: 1.25rem;
   }
   .fa {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
   }
   .telefon {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
   .email {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
+}
+.conteiner2 {
+  height: 100%;
+}
+.worked {
+  margin: 0 auto;
+}
+.wherew {
+  margin: 0 auto;
+}
+.name {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.whomw {
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
+.text {
+  margin: 0 auto;
+  font-size: 0.938rem;
+}
+.expw {
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+.whenw {
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+.wherew {
+  font-size: 0.938rem;
+}
+.whenw1 {
+  font-size: 1.25rem;
+  margin: 1rem;
+}
+.wherew1 {
+  font-size: 0.938rem;
+  margin: 0 auto;
+}
+.end {
+  margin: 0 auto;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+.wheres {
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+.wheres1 {
+  margin: 0 auto;
+  margin: 1rem;
+  font-size: 1.25rem;
+}
+.endr {
+  margin: 1rem;
+  font-size: 1.25rem;
 }
